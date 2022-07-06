@@ -36,6 +36,11 @@
   "name": "yani-product-cart",
   "author": "Angel De La Cruz",
   "module": "dist/yani-product-cart.esm.js",
+  "repository": {
+    "url": "https://github.com/soft2now/yani-product-cart",
+    "type": "git"
+  },
+  "homepage": "https://www.soft2now.com",
   "size-limit": [
     {
       "path": "dist/yani-product-cart.cjs.production.min.js",
@@ -60,5 +65,11 @@
     "tsdx": "^0.14.1",
     "tslib": "^2.4.0",
     "typescript": "^4.7.4"
-  }
+  },
+  "keywords": [
+    "product",
+    "card",
+    "angel",
+    "de la cruz"
+  ]
 }
