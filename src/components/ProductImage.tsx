@@ -1,8 +1,8 @@
-import React,{ CSSProperties, useContext } from "react";
-import { ProductContext } from "./ProductCard";
+import React, { CSSProperties, useContext } from 'react';
+import { ProductContext } from './ProductCard';
 
-import noImage from "../assets/no-image.jpg";
-import styles from "../styles/styles.module.css";
+ 
+import styles from '../styles/styles.module.css';
 
 export interface Props {
   img?: string;
@@ -10,17 +10,17 @@ export interface Props {
   style?: CSSProperties;
 }
 
-export const ProductImage = ({ img = "", className, style }: Props) => {
+export const ProductImage = ({ img, className, style }: Props) => {
   const { product } = useContext(ProductContext);
 
   let imgToshow: string;
 
   if (img) {
     imgToshow = img;
-  } else if (product.img) {
+  } else if (product?.img) {
     imgToshow = product.img;
   } else {
-    imgToshow = noImage;
+    imgToshow = 'https://static.wikia.nocookie.net/otonari-no-tenshi/images/c/c9/No_images_available.jpg/revision/latest?cb=20220104141308';
   }
 
   return (

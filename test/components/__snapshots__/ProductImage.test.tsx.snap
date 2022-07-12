@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductImage Debe de mostrar el componente con la imagen del producto. 1`] = `
+<div
+  className="productCard undefined"
+>
+  <img
+    alt="product"
+    className="productImg undefined"
+    src="https://static.wikia.nocookie.net/otonari-no-tenshi/images/c/c9/No_images_available.jpg/revision/latest?cb=20220104141308"
+  />
+</div>
+`;
+
+exports[`ProductImage Debe de mostrar el componente correctamento con la imagen personalizada 1`] = `
+<img
+  alt="product"
+  className="productImg undefined"
+  src="https://cf.ltkcdn.net/gatos/images/std/236641-800x515r1-etapas-desarrollo-gatitos.jpg"
+/>
+`;
