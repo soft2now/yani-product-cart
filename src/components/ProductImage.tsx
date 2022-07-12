@@ -1,7 +1,6 @@
 import React, { CSSProperties, useContext } from 'react';
 import { ProductContext } from './ProductCard';
 
- 
 import styles from '../styles/styles.module.css';
 
 export interface Props {
@@ -20,7 +19,8 @@ export const ProductImage = ({ img, className, style }: Props) => {
   } else if (product?.img) {
     imgToshow = product.img;
   } else {
-    imgToshow = 'https://static.wikia.nocookie.net/otonari-no-tenshi/images/c/c9/No_images_available.jpg/revision/latest?cb=20220104141308';
+    imgToshow =
+      'https://static.wikia.nocookie.net/otonari-no-tenshi/images/c/c9/No_images_available.jpg/revision/latest?cb=20220104141308';
   }
 
   return (
