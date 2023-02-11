@@ -17,7 +17,7 @@ export const ProductButtons = ({ className, style }: Props) => {
   ]);
 
   return (
-    <div style={style} className={`${styles.buttonsContainer} ${className}`}>
+    <div style={style} className={`${className}`}>
       <button
         type="button"
         onClick={() => increaseBy(-1)}
